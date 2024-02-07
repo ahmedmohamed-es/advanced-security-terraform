@@ -27,6 +27,8 @@ jobs:
           path: 'terraform'
           ignore_on_exit: all
           enable_comments: true
+          enable_jobs_summary: true
+          comments_with_queries: true
       # Display the results in json format
       - name: display kics results
         run: |
